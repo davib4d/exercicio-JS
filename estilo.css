@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+.pagina-navegacao {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    font-size: 50px;
+}
+
+a:hover {
+    color: #004080;
+}
+
+.pagina-contador {
+    background-color: #fff;
+}
+
+#contador {
+    font-size: 50px;
+    margin: 20px;
+    color: #333;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#seletorCor {
+    margin-top: 20px;
+}

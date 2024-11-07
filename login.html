@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="log.css">
+    <script src="logar.js"></script>
+</head>
+<body class="pagina-login">
+        <div class="container-login">
+            <h1>Login</h1>
+            <form onsubmit="return validarLogin()">
+                <label for="campoUsuario">Usuário:</label>
+                <input type="email" id="campoUsuario" required>
+                <small id="erroUsuario" class="erro"></small>
+                
+                <label for="campoSenha">Senha:</label>
+                <input type="password" id="campoSenha" required>
+                <small id="erroSenha" class="erro"></small>
+    
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+</body>
+</html>
